@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import gurjasPhoto from "@/public/gurjas.PNG";
+import gurjasPhoto from "@/public/gurjas.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -33,12 +33,13 @@ export default function Intro() {
           >
             <Image
               src={gurjasPhoto}
-              alt="Gurjaspartap Singh"
-              width="192"
-              height="192"
-              quality="95"
+              alt="Gurjaspartap Singh - Full Stack Developer specializing in React and AI integration"
+              width={192}
+              height={192}
+              quality={95}
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </motion.div>
 
