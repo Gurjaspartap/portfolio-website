@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated in AI & Data Science",
+    location: "Fatehgarh Sahib Punjab, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 Years of studying. I immediately found a job as Full-Stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern Software Engineer",
+    location: "Mohali, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as an intern for 1 month where I gained valuable exposure to real-time chat applications, working with XMPP protocols and WebSocket technology.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Oct 2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Mohali, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently working as a full-stack developer specializing in building custom web applications for clients. I leverage modern technologies to deliver scalable and efficient solutions.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Nov 2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AI Resume Builder",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "A modern web application that leverages Gemini API to help users create professional resumes. Features include AI-powered content suggestions, dynamic formatting, and secure authentication.",
+    tags: ["React", "Next.js", "Supabase", "PostgreSQL", "Firebase Auth", "Gemini API", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Enterprise CRM Solution",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Currently developing a custom AI-powered CRM system for a client. The solution includes intelligent customer segmentation, automated insights, and advanced analytics dashboard.",
+    tags: ["React", "TypeScript", "Next.js", "AI Integration", "PostgreSQL", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Full Stack Blog Platform",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A feature-rich blogging platform built with React and Node.js. Includes user authentication, rich text editing, comment system, and responsive design.",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT Auth", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +94,20 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Bootstrap",
+  "Material-UI",
+  "Chakra-UI",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "OpenAI",
+  "Numpy",
+  "Pandas",
+  "Matplotlib",
+  "Seaborn",
+  "Scikit-learn",  
 ] as const;

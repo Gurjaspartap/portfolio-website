@@ -19,31 +19,31 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I hold a degree in{" "}
+        <span className="font-medium">Bachelors(Hons) AI & Data Science</span>, which has given me a strong 
+        foundation in artificial intelligence and data analysis. My passion lies in{" "}
+        <span className="font-medium">web application development</span> with a focus on AI integration.{" "}
+        <span className="italic">What drives me in programming</span> is the ability to 
+        solve real-life problems through technology. I <span className="underline">love</span> creating 
+        solutions that make a meaningful impact. My core tech stack includes{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, and TypeScript
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I'm particularly interested in combining web technologies with AI capabilities
+        to create innovative solutions. My career goal is to explore the{" "}
+        <span className="font-medium">cybersecurity field</span> and develop AI-powered
+        products that enhance digital security.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">When I'm not coding</span>, I'm dedicated to my fitness journey - 
+        I've been consistently hitting the <span className="font-medium">gym since March 2023</span>. 
+        I'm also an avid <span className="font-medium">chess player</span> and have a passion for 
+        exploring new places through travel. As a car enthusiast, I love learning about and 
+        experiencing different automobiles. These hobbies help me maintain a balanced lifestyle 
+        and keep my mind sharp for tackling technical challenges.
       </p>
     </motion.section>
   );
 }
+
