@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import gurjasPhoto from "@/public/gurjas.png";
@@ -60,16 +60,19 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Gurjaspartap Singh.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">1 year</span> of experience. I enjoy
-        building <span className="italic"> web apps with AI integration</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-bold">Hello, I'm Gurjaspartap Singh.</span> I'm an{" "}
+  <span className="font-bold">international student in Australia</span> pursuing a{" "}
+  <span className="font-bold">Master of Cybersecurity</span> at the University of Newcastle.  
+  I have hands-on experience in{" "}
+  <span className="font-bold">full-stack web development</span>, and I’m currently{" "}
+  <span className="font-bold">seeking part-time opportunities in Newcastle NSW</span>.  
+</motion.h1>
+
+
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -114,6 +117,13 @@ export default function Intro() {
           target="_blank"
         >
           <FaGithubSquare />
+        </a>
+        <a
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          href="https://www.facebook.com/gurjaspartap/"
+          target="_blank"
+        >
+          <FaFacebookSquare />
         </a>
       </motion.div>
     </section>

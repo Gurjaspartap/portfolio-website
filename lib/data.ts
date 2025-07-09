@@ -38,25 +38,33 @@ export const experiencesData = [
     title: "Graduated in AI & Data Science",
     location: "Fatehgarh Sahib Punjab, India",
     description:
-      "I graduated after 3 Years of studying. I immediately found a job as Full-Stack developer.",
+      "I graduated after 3 Years of studying.While working as a Retail Assistant part time during my studies and full time till i got a job as a Full-Stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024",
+    date: "2021-2024",
   },
   {
-    title: "Intern Software Engineer",
-    location: "Mohali, India",
+    title: "Retail Sales Assistant",
+    location: "Chandigarh, India",
     description:
-      "I worked as an intern for 1 month where I gained valuable exposure to real-time chat applications, working with XMPP protocols and WebSocket technology.",
+      "Assisted customers with their shopping needs, provided product information, and handled POS transactions upto 100000 INR daily.",
     icon: React.createElement(CgWorkAlt),
-    date: "Oct 2024",
+    date: "JAN 2023 - OCT 2024",
   },
   {
     title: "Full-Stack Developer",
     location: "Mohali, India",
     description:
-      "I'm currently working as a full-stack developer specializing in building custom web applications for clients. I leverage modern technologies to deliver scalable and efficient solutions.",
+      "I'm  worked as a full-stack developer specializing in building custom web applications for clients. I leverage modern technologies to deliver scalable and efficient solutions.",
     icon: React.createElement(FaReact),
-    date: "Nov 2024 - present",
+    date: "Nov 2024 - June 2025",
+  },
+  {
+    title: "Master in Cyber-security",
+    location: "University of Newcastle Callaghan, Australia",
+    description:
+    "Doing my Studies while looking for part-time Work Opportunities.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2025-2027",
   },
 ] as const;
 
@@ -84,7 +92,7 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
+export const techSkillsData = [
   "HTML",
   "CSS",
   "JavaScript",
@@ -111,3 +119,24 @@ export const skillsData = [
   "Seaborn",
   "Scikit-learn",  
 ] as const;
+
+export const softSkillsData = [
+  "Communication",
+  "Teamwork",
+  "Problem Solving",
+  "Time Management",
+  "Adaptability",
+  "Leadership",
+  "Customer Service",
+  "Attention to Detail",
+  "Critical Thinking",
+  "Creativity",
+  "Work Ethic",
+  "Flexibility",
+  "Organization",
+  "Collaboration",
+  "Initiative",
+] as const;
+
+// Keep the old skillsData for backward compatibility
+export const skillsData = techSkillsData;
