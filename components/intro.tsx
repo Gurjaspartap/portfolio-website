@@ -60,17 +60,17 @@ export default function Intro() {
       </div>
 
       <motion.h1
-  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-  initial={{ opacity: 0, y: 100 }}
-  animate={{ opacity: 1, y: 0 }}
->
-  <span className="font-bold">Hello, I'm Gurjaspartap Singh.</span> I'm an{" "}
-  <span className="font-bold">international student in Australia</span> pursuing a{" "}
-  <span className="font-bold">Master of Cybersecurity</span> at the University of Newcastle.  
-  I have hands-on experience in{" "}
-  <span className="font-bold">full-stack web development</span>, and I’m currently{" "}
-  <span className="font-bold">seeking part-time opportunities in Newcastle NSW</span>.  
-</motion.h1>
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Hello, I'm Gurjaspartap Singh.</span> I'm an{" "}
+        <span className="font-bold">international student in Australia</span> pursuing a{" "}
+        <span className="font-bold">Master of Cybersecurity</span> at the University of Newcastle.
+        I have hands-on experience in{" "}
+        <span className="font-bold">full-stack web development</span>, and I’m currently{" "}
+        <span className="font-bold">seeking part-time opportunities in Newcastle NSW</span>.
+      </motion.h1>
 
 
 
